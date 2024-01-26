@@ -19,6 +19,7 @@ test('navigatetogtawebsite', async ({ page }) => {
     console.log('My text ' + myText)
     // wait 2 seconds 
     await page.waitForTimeout(2000)
+    // brandon is mario
 
 
 
