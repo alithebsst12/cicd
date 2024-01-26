@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {"noteApiTest": "npx playwright test /tests/noteTakerApiTest.spec.ts --workers=1 --project=chrome --reporter=html",
   "appletest": "npx playwright test /tests/apple.spec.ts --workers=1 --project=chrome --reporter=html",
-  "GTA": "npx playwright test /tests/GTA.spec.ts --headed --workers=1 --project=chrome --reporter=html"
+  "GTA": "npx playwright test /tests/GTA.spec.ts --headed --workers=1 --project=chrome --reporter=html",
+  "Test2": "npx playwright test /tests/Test2.spec.ts --workers=1 --project=chrome --reporter=html"
+  
 
 
 
