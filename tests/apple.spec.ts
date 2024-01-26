@@ -21,10 +21,7 @@ test('navigatetogtawebsite', async ({ page }) => {
     await page.waitForTimeout(2000)
     // brandon is mario
     // new added new okay
-    // new added
-    // coolio
-    // i will go to crib
-    // afefaewf
+
 
 
 
