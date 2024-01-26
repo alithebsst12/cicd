@@ -17,7 +17,7 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
-    - name: Apple test
+    - name: npm Apple test
       run: npm run appletest
     - uses: actions/upload-artifact@v3
       if: always()
