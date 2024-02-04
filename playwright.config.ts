@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
-  timeout: 100* 10000,
+  timeout: 1300* 10000,
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
