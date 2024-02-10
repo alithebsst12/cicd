@@ -44,7 +44,7 @@ test('navigatetogtawebsite', async ({ page }) => {
      await page.locator('xpath=//*[text()="Compare 2 Selected Cards"]').click({timeout:3000})
      // wait 5 seconcd
      await page.waitForTimeout(5000)
-  
+     // new line of code
   
   
   
