@@ -46,7 +46,7 @@ test('navigatetogtawebsite', async ({ page }) => {
      await page.waitForTimeout(2000)
      // now go back to previous page
      await page.goBack
-     
+     // wat will you do
   
   
   
