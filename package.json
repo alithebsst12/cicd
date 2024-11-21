@@ -11,7 +11,7 @@
   "Test4": "npx playwright test /tests/youtube.spec.ts  --headed --workers=1 --project=chrome --reporter=html",
   "Test5": "npx playwright test /tests/youtube.spec.ts  --workers=1 --project=chrome --reporter=html",
   "Test6": "npx playwright test /tests/youtube.spec.ts  --headed  --workers=1 --project=chrome --reporter=html",
-  "Test7": "npx playwright test /tests/phone.spec.ts   --workers=2 --project=chrome  --project=firefox --reporter=html"
+  "Test7": "npx playwright test /tests/phone.spec.ts  --workers=2 --project=chrome  --project=firefox --reporter=html"
  
  
  
