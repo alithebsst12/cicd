@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
-  timeout: 1300* 10000,
+  timeout: 1300* 1000,
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
@@ -97,6 +97,7 @@ export default defineConfig({
 // npx playwright test /tests/phone.spec.ts --headed
 // npx playwright test /tests/versace.spec.ts --headed
 //npx playwright test /tests/apple.spec.ts --headed
+//npx playwright test /tests/youtube.spec.ts  --headed
 
 
 
