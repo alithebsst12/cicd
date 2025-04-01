@@ -3,44 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"noteApiTest": "npx playwright test /tests/noteTakerApiTest.spec.ts --workers=1 --project=chrome --reporter=html",
-  "appletest": "npx playwright test /tests/apple.spec.ts --workers=1 --project=chrome --reporter=html",
-  "GTA": "npx playwright test /tests/GTA.spec.ts --headed --workers=2 --project=chrome --reporter=html",
-  "Test2": "npx playwright test /tests/Test2.spec.ts --workers=1 --project=chrome --reporter=html",
-  "Test3": "npx playwright test /tests/Americanexpress.spec.ts --headed --workers=1 --project=chrome --reporter=html",
-  "Test4": "npx playwright test /tests/youtube.spec.ts  --headed --workers=1 --project=chrome --reporter=html",
-  "Test5": "npx playwright test /tests/youtube.spec.ts  --workers=1 --project=chrome --reporter=html",
-  "Test6": "npx playwright test /tests/youtube.spec.ts  --headed  --workers=1 --project=chrome --reporter=html",
-  "Test7": "npx playwright test /tests/phone.spec.ts  --workers=2 --project=chrome  --project=firefox --reporter=html",
-  "Test8": "npx playwright test /tests/gtawebsite.spec.ts --headed --workers=2 --project=chrome --reporter=html",
-  "Test9": "npx playwright test /tests/gtawebsite.spec.ts --workers=2 --project=chrome --reporter=html"
-  
-
- 
- 
- 
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-},
-  
-
+  "scripts": {
+    "noteApiTest": "npx playwright test /tests/noteTakerApiTest.spec.ts --workers=1 --project=chrome --reporter=html",
+    "appletest": "npx playwright test /tests/apple.spec.ts --workers=1 --project=chrome --reporter=html",
+    "GTA": "npx playwright test /tests/GTA.spec.ts --headed --workers=2 --project=chrome --reporter=html",
+    "Test2": "npx playwright test /tests/Test2.spec.ts --workers=1 --project=chrome --reporter=html",
+    "Test3": "npx playwright test /tests/Americanexpress.spec.ts --headed --workers=1 --project=chrome --reporter=html",
+    "Test4": "npx playwright test /tests/youtube.spec.ts  --headed --workers=1 --project=chrome --reporter=html",
+    "Test5": "npx playwright test /tests/youtube.spec.ts  --workers=1 --project=chrome --reporter=html",
+    "Test6": "npx playwright test /tests/youtube.spec.ts  --headed  --workers=1 --project=chrome --reporter=html",
+    "Test7": "npx playwright test /tests/phone.spec.ts  --workers=2 --project=chrome  --project=firefox --reporter=html",
+    "Test8": "npx playwright test /tests/gtawebsite.spec.ts --headed --workers=2 --project=chrome --reporter=html",
+    "Test9": "npx playwright test /tests/gtawebsite.spec.ts --workers=2 --project=chrome --reporter=html"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.34.3"
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.17"
   }
 }
