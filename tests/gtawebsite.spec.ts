@@ -19,7 +19,7 @@ test('navigatetonikewebsite', async ({ page }) => {
      await page.waitForTimeout(30000)
      // now scroll by pixels
      await page.mouse.wheel(0,1000)
-     //niveccc
+     //nivec
 
 
 
