@@ -12,14 +12,17 @@ test('navigatetonikewebsite', async ({ page }) => {
     // verify the title is correct 
     await expect (page).toHaveTitle('Rockstar Games')
     // now wait 3 seconds
-    await page.waitForTimeout(3000)
+   /* await page.waitForTimeout(3000)
     // now click on watch now 
     await page.locator("xpath = (//*[text() = 'Watch Now'])[1]").click({timeout:10000})
-     // now wait 30 seconds
+    */ // now wait 30 second
      await page.waitForTimeout(30000)
      // now scroll by pixels
      await page.mouse.wheel(0,1000)
-     //niveccc
+      // now wait 4 seconds
+    await page.waitForTimeout(4000)
+    
+    
 
 
 
