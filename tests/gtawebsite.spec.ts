@@ -21,6 +21,10 @@ test('navigatetonikewebsite', async ({ page }) => {
      await page.mouse.wheel(0,1000)
       // now wait 4 seconds
     await page.waitForTimeout(4000)
+     // now wait 4 seconds
+     await page.waitForTimeout(4000)
+     //sdvbdbtr
+    
     
     
 
