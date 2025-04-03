@@ -23,7 +23,7 @@ test('navigatetonikewebsite', async ({ page }) => {
     await page.waitForTimeout(4000)
      // now wait 4 seconds
      await page.waitForTimeout(4000)
-     //sdvbdbtr
+     //sdvbdbtrsadsfvwaefvweafwgerewgreSASDWyqfyeaf
     
     
     
