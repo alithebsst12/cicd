@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "Test1": "npx playwright test /tests/nike.spec.ts.spec.ts --headed --workers=1 --project=chromium --reporter=html"
+
+
+
+
+
+
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
