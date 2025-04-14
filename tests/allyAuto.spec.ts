@@ -32,7 +32,7 @@ test('navigatetogtawebsite', async ({ page }) => {
     console.log('this is my results ' + myResults)
     // now wait 3 seconds 
     await page.waitForTimeout(3000)
-    //sversbnretnrtnrtedrshsabaersdfyawesdgnaersdbunaerhsu ber hhbsr 
+    //sversbnretnrtnrtedrshsabaersdfyawesdgnaersdbunaerhsu ber hhbsr test
    
 
 
