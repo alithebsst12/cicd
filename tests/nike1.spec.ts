@@ -1,13 +1,15 @@
 
 import { test, expect, type Page } from '@playwright/test';
-test('navigatetolvwebsite', async ({ page }) => {
+test('navigatetothenikewebsite', async ({ page }) => {
+
+    // loginto the nike webiste
+    await page.goto("https://www.nike.com");
+    // wait for 5 seconds
+    await page.waitForTimeout(5000)
 
 
-    await page.goto("https://www.nike,com");
-    await page.waitForTimeout(3000)
 
 
-    
 
 
 
