@@ -29,8 +29,8 @@ test('navigatetothenikewebsite', async ({ page }) => {
     // wait for 5 seconds
     await page.waitForTimeout(8000)
     // store in a placeholder using let command 
-    let choices await page.locator('xpath = //*[@id="gen-nav-commerce-header-v2"]/nav/header/div/div/div[3]/div/search/form/div/div[4]/div/section/div/ul/li[1]/a/figure/div[2]/div[1]/h1').click({timeout:3000})
-    // wait for 5 seconds
+    let options = await page.locator('xpath = //*[@id="gen-nav-commerce-header-v2"]/nav/header/div/div/div[3]/div/search/form/div/div[4]/div/section/div/ul/li[1]/a/figure/div[2]/div[1]/h1')
+    options.click({timeout:3000})
     await page.waitForTimeout(4000)
   
 
