@@ -1,5 +1,6 @@
 
 import { test, expect, type Page } from '@playwright/test';
+import { TIMEOUT } from 'dns/promises';
 test('navigatetothenikewebsite', async ({ page }) => {
 
     
@@ -24,34 +25,14 @@ test('navigatetothenikewebsite', async ({ page }) => {
     // wait for 5 seconds
      await page.waitForTimeout(4000)
     // Tester should click on the search field 
-    await page.locator("xpath = //*[@aria-label = 'Search Products']").fill(option[0])
+    await page.locator("xpath = //*[@aria-label = 'Search Products']").fill(option[i])
     // wait for 5 seconds
     await page.waitForTimeout(8000)
-
-
-    if(i==0){
-        let name = await page.locator("xpath = //*[@class = 'nds-text title css-196t8ag e1yhcai00 appearance-body1Strong color-primary weight-medium']")
-
-        name.nth(1).click({timeout:10000})
-        // wait for 5 seconds
-     await page.waitForTimeout(10000)
-
-
-    }
-
-
-
-    // now capture text 
-
-    let text = await page.locator("xpath = (//*['#pdp_product_subtitle'])[2806]").textContent({timeout :3000})
+    // store in a placeholder using let command 
+    let choices await page.locator('xpath = //*[@id="gen-nav-commerce-header-v2"]/nav/header/div/div/div[3]/div/search/form/div/div[4]/div/section/div/ul/li[1]/a/figure/div[2]/div[1]/h1').click({timeout:3000})
     // wait for 5 seconds
     await page.waitForTimeout(4000)
-    console.log("my new message is " + text)
-     // wait for 5 seconds
-     await page.waitForTimeout(4000)
-     //grgt
-
-
+  
 
 
 
