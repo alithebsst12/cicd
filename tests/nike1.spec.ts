@@ -25,13 +25,29 @@ test('navigatetothenikewebsite', async ({ page }) => {
     // wait for 5 seconds
      await page.waitForTimeout(4000)
     // Tester should click on the search field 
-    await page.locator("xpath = //*[@aria-label = 'Search Products']").fill(option[i])
+    await page.locator("xpath = //*[@aria-label = 'Search Products']").fill(option[0])
     // wait for 5 seconds
     await page.waitForTimeout(8000)
     // store in a placeholder using let command 
     let options = await page.locator('xpath = //*[@id="gen-nav-commerce-header-v2"]/nav/header/div/div/div[3]/div/search/form/div/div[4]/div/section/div/ul/li[1]/a/figure/div[2]/div[1]/h1')
     options.click({timeout:3000})
     await page.waitForTimeout(4000)
+    // now scroll by pixels
+    await page.mouse.wheel(0,600)
+    // wait for 5 seconds
+    await page.waitForTimeout(5000)
+    // Tester should pick the size large 
+    await page.locator('xpath = //*[@id="size-selector"]/fieldset/div[1]/div[1]/div[6]/label').click({timeout:3000})
+    // wait for 5 seconds
+    await page.waitForTimeout(5000)
+    // tester should click on add to bag button 
+    await page.locator('xpath = //*[@id="__next"]/main/div[2]/div[3]/div[5]/div[1]/button').click({timeout:6000})
+    // wait for 5 seconds
+    await page.waitForTimeout(5000)
+    await page.pause();
+
+
+
   
 
 

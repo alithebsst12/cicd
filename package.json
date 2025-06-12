@@ -16,7 +16,8 @@
     "Test8": "npx playwright test /tests/gtawebsite.spec.ts --headed --workers=2 --project=chrome --reporter=html",
     "Test9": "npx playwright test /tests/gtawebsite.spec.ts --workers=2 --project=chrome --reporter=html",
     "Test10": "npx playwright test /tests/nike1.spec.ts --headed --workers=1 --project=chrome --reporter=html",
-    "Test11": "npx playwright test /tests/nike1.spec.ts --workers=2 --project=chrome --reporter=html"
+    "Test11": "npx playwright test /tests/nike1.spec.ts --workers=2 --project=chrome --reporter=html",
+    "Test12": "npx playwright test /tests/MSI.spec.ts --headed --workers=1 --project=chrome --reporter=html"
   },
   "keywords": [],
   "author": "",
