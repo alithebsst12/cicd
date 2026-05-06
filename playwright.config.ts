@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
-  timeout: 1300* 1000,
+  timeout: 130* 1000,
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
@@ -23,11 +23,11 @@ export default defineConfig({
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
-  forbidOnly: !!process.env.CI,
+  forbidOnly: !!process.env.CI, 
   /* Retry on CI only */
-  retries: process.env.CI ? 2 : 0,
+  retries: process.env.CI ? 2: 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 1: undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
 
@@ -97,7 +97,10 @@ export default defineConfig({
 // npx playwright test /tests/phone.spec.ts --headed
 // npx playwright test /tests/versace.spec.ts --headed
 //npx playwright test /tests/apple.spec.ts --headed
-//npx playwright test /tests/youtube.spec.ts  --headed
+//npx playwright test /tests/youtube.spec.ts  --
+
+
+//npx playwright test /tests/MSI.spec.ts  --headed
 
 
 
