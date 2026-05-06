@@ -37,6 +37,12 @@ test('navigatetomSI', async ({ page }) => {
      // wait for 5 seconds 
      await page.waitForTimeout(10000)
 
+     //rvebvrbtb rdfsvds
+     //
+    //4tbtrb5tyrntnyn
+    //rgt5rbtyn
+
+
 
 
 
